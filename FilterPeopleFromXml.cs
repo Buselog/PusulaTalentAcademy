@@ -74,12 +74,7 @@ namespace PusulaTalentAcademy
             return JsonSerializer.Serialize(report);
         }
 
-        // test amaçlı; göndermeden önce silebilirsin
-        public static void RunSample()
-        {
-            string xml = "<People><Person><Name>Mehmet</Name><Age>40</Age><Department>IT</Department><Salary>7500</Salary><HireDate>2017-02-01</HireDate></Person></People>";
-            Console.WriteLine(FilterPeopleFromXml(xml));
-        }
+        
     }
 }
 
